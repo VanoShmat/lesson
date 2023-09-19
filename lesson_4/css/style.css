@@ -1,0 +1,121 @@
+/* Скидання стилів */
+@import url("reset.css");
+
+/* текст для заміни відступів */
+header .transparent-text p,
+footer .transparent-text p {
+    color: rgb(157, 191, 141);
+}
+main .transparent-text p {
+    color: rgb(220, 170, 170);
+}
+
+/* Основні стилі */
+
+/* -----типи селекторів------ */
+
+/* 
+Селектор зірочка - використав
+Селектор тегу - використав
+Селектор класу - використав
+Селектор атрибуту - використав
+Селектор ID
+
+КОМБІНАЦІЇ СЕЛЕКТОРІВ
+КАСКАДНІСТЬ (ВКЛАДЕНІСТЬ) СЕЛЕКТОРІВ - використав
+*/
+
+/* ---------трохи ще не пройдених для наглядності----------------- */
+[class*="-container"] {
+    background: rgb(220, 170, 170);
+}
+header,
+footer {
+    background: rgb(157, 191, 141);
+}
+.main-title {
+    font-size: 24px;
+}
+h2.title {
+    font-size: 20px;
+}
+.week-title {
+    font-size: 18px;
+}
+/* -------------------------- */
+* {
+    color: green;
+}
+span {
+    font-size: 20px;
+    color: rgb(255, 0, 0);
+}
+.projects-link {
+    color: white;
+}
+.main-title {
+    color: black;
+}
+header ul * {
+    color: blue;
+}
+.menu-list {
+}
+.menu-item {
+}
+.about .title {
+    color: rgb(56, 52, 80);
+}
+.about-image {
+}
+.about-text p {
+    color: rgb(24, 13, 13);
+}
+.why .title {
+    color: bisque;
+}
+.why-text p {
+    color: rgb(243, 224, 22);
+}
+.forwho {
+}
+.forwho-text {
+}
+.plan {
+}
+.plan-body {
+}
+.week > h3 {
+    color: rgb(255, 255, 255);
+}
+.week-title ~ p {
+    color: rgb(34, 23, 188);
+}
+.week-title > span {
+    color: rgb(186, 111, 94);
+}
+.week-text {
+}
+.plan-img {
+}
+.final h2 {
+    color: rgb(233, 3, 233);
+}
+div.final-text p {
+    color: rgb(244, 255, 37);
+}
+.summary {
+}
+.summary .transparent-text + p {
+    color: rgb(24, 13, 13);
+}
+footer > p {
+    color: rgb(105, 33, 229);
+}
+.course-link {
+    color: rgb(200, 28, 28);
+}
+
+footer .menu-item {
+    color: rgb(255, 255, 255);
+}
