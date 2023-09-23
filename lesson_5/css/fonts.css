@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500,700&display=swap ");
+@import url("https://fonts.googleapis.com/css?family=Poppins:600,700&display=swap");
+
+@font-face {
+    font-family: "Zvin Serif";
+    src: url("../fonts/zvin-serif/ZvinSerif-Medium.woff2") format("woff2"), url("../fonts/zvin-serif/ZvinSerif-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Zvin Serif";
+    src: url("../fonts/zvin-serif/ZvinSerif-SemiBold.woff2") format("woff2"),
+        url("../fonts/zvin-serif/ZvinSerif-SemiBold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
