@@ -1,0 +1,419 @@
+/* Підключення шрифтів */
+@import url("fonts.css");
+
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Основні стилі */
+/* ---------header----------- */
+header,
+footer {
+    background: #f8e7d9;
+    font-family: "DM Serif Text", serif;
+}
+.menu-body {
+    margin: 0 auto;
+    max-width: 1170px;
+    padding: 20px 0;
+}
+.menu-list {
+    text-transform: capitalize;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.menu-item:not(:last-child) {
+    margin: 0 0 15px 0;
+}
+.projects-link,
+.practice-link {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.projects-link {
+    color: #d00050;
+}
+.practice-link {
+    color: #0015cf;
+}
+.practice-link span {
+    color: #d00050;
+}
+.up {
+    font-size: 30px;
+}
+.main-title {
+    text-align: center;
+    font-size: 50px;
+    font-family: "inter", sans-serif;
+    background: #f8e7d9;
+    word-spacing: 25px;
+    /* background-color: #cafff6; */
+}
+
+.main-title h1 {
+    padding: 10px 0 30px;
+    /* color: #9d00ff; */
+    color: #007173;
+}
+/* --------jewellery--------- */
+
+.jewellery {
+    background: #fff9f4;
+    font-family: "inter", sans-serif;
+    font-size: 0;
+    margin: 0 0 150px 0;
+}
+.jewellery-body {
+    padding: 30px 0;
+    margin: 0 auto;
+    max-width: 1170px;
+}
+.jewellery-info {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 563px;
+    padding: 21px 0;
+    margin: 0 38px 0 0;
+}
+.jewellery-sub-title {
+    text-transform: uppercase;
+    color: #d06b00;
+    font-size: 28px;
+    margin: 0 0 13px 0;
+}
+.jewellery-title {
+    text-transform: capitalize;
+    font-family: "DM Serif Text", serif;
+    color: #0e333d;
+    font-size: 59px;
+    line-height: 1.46;
+    margin: 0 0 25px 0;
+}
+.jewellery-text {
+    color: #474747;
+    font-size: 20px;
+    line-height: 1.8;
+}
+.jewellery-images {
+    display: inline-block;
+}
+.jewellery-images img {
+    max-width: 100%;
+}
+.img-with-margin {
+    margin: 0 22px 0 0;
+}
+
+/* -----------why------------ */
+.why {
+    font-family: "inter", sans-serif;
+    color: #7d7d7d;
+    font-size: 18px;
+    margin: 0 0 150px 0;
+}
+.why [class*="-title"] {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    line-height: 1.27;
+}
+.why-body {
+    max-width: 692px;
+    margin: 0 auto;
+}
+.why-main-img {
+    max-width: 100%;
+    margin: 0 0 37px 0;
+}
+.why-info {
+}
+.why-title {
+    color: #37393f;
+    font-size: 30px;
+    margin: 0 0 11px 0;
+}
+.why-text {
+    line-height: 1.46;
+}
+.text-1 {
+    margin: 0 0 42px 0;
+}
+.text-2 {
+    margin: 0 0 40px 0;
+}
+.why-sub-title {
+    color: #6b77e5;
+    font-size: 20px;
+    margin: 0 0 12px 0;
+}
+.why-benefits {
+    font-size: 0;
+}
+.benefits-img {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 29px 0 0;
+}
+.benefits-img img {
+    max-width: 100%;
+}
+.benefits-info {
+    display: inline-block;
+    max-width: 332px;
+}
+.benefits-titles {
+}
+.benefits-title {
+    color: #37393f;
+    font-size: 25px;
+    margin: 0 0 24px 0; /* додав трохи від себе, щоб кінець списку li підігнати під зображення */
+}
+.benefits-sub-title {
+    color: #40ddb6;
+    font-size: 20px;
+    margin: 0 0 31.5px 0; /* додав трохи від себе, щоб кінець списку li підігнати під зображення */
+}
+.benefits-list {
+    font-size: 18px;
+    text-indent: 35px;
+}
+.benefits-item:not(:last-child) {
+    margin: 0 0 35px 0;
+}
+/* --------practice--------- */
+.practice {
+    margin: 0 0 150px 0;
+}
+.practice-info {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+/* .practice-head {
+} */
+.practice-title {
+    max-width: 620px;
+    margin: 0 auto 42px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    color: #37393f;
+}
+.practice-title h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.21;
+}
+.practice-body {
+    font-size: 0;
+    font-family: "Inter", sans-serif;
+    padding: 50px 0 0 0;
+}
+.practice-body-plan {
+    display: inline-block;
+    vertical-align: top;
+    width: 386px;
+    padding: 47px 31px;
+    text-align: center;
+}
+.plan-1 {
+    /* padding: 50px 0 74px 0; */
+    background: #f4f4f4;
+    margin-right: 31px;
+}
+.plan-1,
+.plan-3 {
+}
+.plan-hat {
+    font-family: "Poppins", sans-serif;
+    color: #37393f;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.1;
+    margin-bottom: 25px;
+}
+.plan-title {
+}
+
+.line-between {
+    width: 324px;
+    height: 1px;
+    background: #d3d3d3;
+    margin: 0 auto;
+}
+.plan-price {
+    padding: 23px 0;
+}
+.plan-price > p {
+    font-family: "Poppins", sans-serif;
+    color: #37393f;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.1;
+    margin-bottom: 23px;
+}
+.plan-1 .plan-price-year {
+    width: 250px;
+}
+.plan-price-year {
+    width: 258px;
+    padding: 7px 32px;
+    margin: 0 auto;
+    background: #40ddb6;
+    font-size: 18px;
+    line-height: 1.56;
+    color: #208068;
+}
+.plan-price-year p {
+}
+.plan-list {
+    padding: 34px 0;
+    color: #7d7d7d;
+    font-size: 18px;
+    line-height: 1.35;
+}
+.plan-items {
+}
+.plan-item {
+}
+.plan-item:not(:last-child) {
+    margin: 0 0 23.6px 0;
+}
+.button-buy {
+    background: #6b77e5;
+    width: 185px;
+    height: 64px;
+    margin: 0 auto;
+    font-size: 18px;
+    color: #fff;
+}
+.button-buy a {
+    display: inline-block;
+    width: 185px;
+    height: 64px;
+}
+.button-buy a span {
+    display: inline-block;
+    padding: 21px 42px;
+}
+.plan-3 {
+    background: #f4f4f4;
+}
+.most-popular {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+}
+.popular-title {
+}
+.plan-item-bold {
+    color: #37393f;
+    font-weight: 700;
+}
+/* ----------plan-2----------- */
+.practice-body-blue {
+    display: inline-block;
+    margin-right: 31px;
+}
+.practice-body-plan {
+}
+.plan-2 {
+    background: #6b77e5;
+    color: #fff;
+}
+.most-popular {
+    width: 386px;
+    height: 50px;
+    padding: 15px 126px;
+    background: #40ddb6;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: -50px;
+}
+.popular-title {
+}
+.plan-2 .plan-hat {
+    color: #fff;
+}
+.plan-2 .plan-title {
+}
+.plan-2 .line-between {
+    background: #fff;
+}
+.plan-2 .plan-price > p {
+    color: #fff;
+}
+.plan-2 .plan-price-year {
+    background: #fff;
+    color: #6b77e5;
+}
+.plan-2 .plan-list {
+    color: #fff;
+}
+.plan-2 .plan-items {
+}
+.plan-2 .plan-item {
+}
+.plan-item-green {
+    color: #40ddb6;
+    font-weight: 700;
+}
+.button-buy-2 {
+    background: #fff;
+    color: #6b77e5;
+}
+/* ---------just-blocks---------- */
+.just-blocks {
+    max-width: 1170px;
+    margin: 0 auto 100px;
+    font-family: "inter", sans-serif;
+}
+.overflow {
+    font-size: 30px;
+    font-family: "DM Serif Text", sans-serif;
+}
+.block-u {
+    background-color: #51ace0;
+    width: 1170px;
+    height: 500px;
+}
+.block-k {
+    background-color: #e8d939;
+    width: 970px;
+    height: 500px;
+    margin: -300px auto 0;
+}
+.block-1 {
+    background: #7496c0;
+    max-width: 100px;
+    max-height: 200px;
+    margin: -50px auto 20px;
+    padding: 10px 0 0 20px;
+    overflow: hidden;
+}
+.block-1-text {
+    background: #b1d1f8;
+}
+.block-2 {
+    overflow: scroll;
+    background: #9c5a5a;
+    width: 400px;
+    max-height: 300px;
+    margin: 0 auto 20px;
+    padding: 30px 20px;
+}
+.block-2-text {
+    background: #c69797;
+}
+.block-2 .nowrap {
+    white-space: nowrap;
+    margin-bottom: 40px;
+}
+.block-3 {
+    overflow: auto;
+    background: #689c5a;
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 5px 10px;
+}
+.block-3-text {
+    background: #bbe7af;
+}
