@@ -1,0 +1,432 @@
+/* Підключення шрифтів */
+@import url("fonts.css");
+
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Основні стилі */
+/* -------------------------------- */
+/* ---------header------------- */
+/* -------------------------------- */
+header {
+    background: #37393f;
+    font-family: "inter", sans-serif;
+    color: #ffffff;
+    max-height: 123px;
+    margin: 0 0 50px 0;
+}
+.header-body {
+    padding: 0px 15px;
+    max-width: 1133px;
+    margin: 0 auto;
+    font-size: 0;
+}
+.page-logo {
+    display: inline-block;
+    vertical-align: top;
+    padding: 47px 0;
+}
+.logo-img {
+    height: 29px;
+    margin: 0 4px 0 0;
+}
+.logo-text {
+    display: inline-block;
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.16;
+}
+.logo-text span {
+    color: #6b77e5;
+}
+.nav-list {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 1.61;
+    width: 903px;
+    text-align: end;
+    text-transform: capitalize;
+}
+.nav-link {
+    display: inline-block;
+    margin-right: 40px;
+    padding: 47px 0;
+}
+
+.add-nav-link {
+    color: #fff;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.add-nav-link a {
+    background-color: #6b77e5;
+    padding: 20px 35px;
+}
+/* -------------------------------- */
+/* ---------footer------------- */
+/* -------------------------------- */
+footer {
+    background: #37393f;
+    font-family: "inter", sans-serif;
+    color: #ffffff;
+    max-height: 123px;
+}
+.footer-body {
+    padding: 0px 15px;
+    max-width: 1133px;
+    margin: 0 auto;
+    font-size: 0;
+}
+.footer-items {
+    display: inline-block;
+    width: 903px;
+    text-align: end;
+    padding: 27.5px 0;
+}
+.footer-item {
+    display: inline-block;
+    margin-right: 60px;
+}
+.footer-item:last-child {
+    margin: 0;
+}
+.footer-item-img {
+    /* height: 68px; */
+    margin-right: 10px;
+}
+.footer-item-info {
+    display: inline-block;
+    text-align: left;
+    line-height: 1.5;
+    padding: 5.5px 0;
+}
+.info-title {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+.info-value {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+/* -------------------------------- */
+/* ---------jewelry------------- */
+/* -------------------------------- */
+.jewelry {
+    padding: 0 15px;
+    max-width: 1133px;
+    margin: 0 auto 150px;
+    font-family: "Cormorant Infant", serif;
+    font-weight: 700;
+    font-size: 0;
+}
+.jewelry-text {
+    display: inline-block;
+    vertical-align: top;
+    padding: 70px 0;
+    max-width: 503px;
+    margin: 0 85px 0 0;
+}
+.jewelry-text h5 {
+    color: #d58417;
+    font-size: 20px;
+    margin: 0 0 27px 0;
+}
+.jewelry-text h2 {
+    font-size: 64px;
+    margin: 0 0 31px 0;
+}
+.jewelry-text p {
+    color: #606060;
+    font-size: 30px;
+    line-height: 1.4;
+}
+.image-container {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 30px 0 0;
+    padding-top: 85px;
+}
+.jewelry-img-01,
+.jewelry-img-02 {
+    border-radius: 235px;
+    border: 1px solid #502203;
+}
+.jewelry-img-01 {
+    width: 177px;
+    height: 336px;
+}
+.jewelry-img-02 {
+    display: inline-block;
+    width: 307px;
+    height: 500px;
+}
+.jewelry-img-01 img {
+    margin: 14px 0px 0px -10px;
+}
+.jewelry-img-02 img {
+    margin: 19px 0 0 -11px;
+}
+/* -------------------------------- */
+/* ---------euphoria------------- */
+/* -------------------------------- */
+.euphoria {
+    font-family: "Causten", sans-serif;
+    color: #807d7e;
+    padding: 0 15px;
+    max-width: 1249px;
+    margin: 0 auto 150px;
+}
+.euphoria-head {
+    font-size: 0;
+}
+.euphoria-decor {
+    display: inline-block;
+    vertical-align: top;
+    width: 6px;
+    height: 28px;
+    border-radius: 10px;
+    background: #8a33fd;
+    margin: 0 15px 0 0;
+}
+.euphoria-body {
+    padding: 0 0 0 21px;
+}
+.euphoria-title {
+    display: inline-block;
+    font-family: "Core Sans C", sans-serif;
+    color: #3c4242;
+    font-weight: 600;
+    font-size: 28px;
+    letter-spacing: 0.56px;
+    line-height: 1.19;
+    margin: 0 0 30px 0;
+}
+.euphoria-small-title {
+    font-family: "Core Sans C", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0.4px;
+    line-height: 1.67;
+    margin: 0 0 25px 0;
+}
+.euphoria-block-text {
+    font-size: 20px;
+    line-height: 1.67;
+    letter-spacing: 0.4px;
+}
+.euphoria-block-text p:not(:last-child) {
+    margin: 0 0 20px 0;
+}
+.block-text-1 {
+    margin: 0 0 25px 0;
+}
+.block-text-2 {
+    margin: 0 0 20px 0;
+}
+.euphoria a {
+    font-family: "Core Sans C", sans-serif;
+    font-weight: 600;
+}
+/* -------------------------------- */
+/* ---------consulting------------- */
+/* -------------------------------- */
+.consulting {
+    font-family: "inter", sans-serif;
+    font-size: 18px;
+    color: #7d7d7d;
+}
+.consulting [class*="title"] {
+    font-family: "popins", sans-serif;
+    color: #37393f;
+    font-weight: 700;
+}
+.license {
+    padding: 0 15px;
+    max-width: 1248px;
+    margin: 0 auto 150px;
+}
+.header-title {
+    max-width: 296px;
+    margin: 0 auto 70px;
+    text-align: center;
+    color: #37393f;
+    font-size: 0;
+}
+.header-info {
+}
+.green-rectangle {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: #40ddb6;
+    margin: 0 6px 0 0;
+}
+.header-title p {
+    font-size: 18px;
+    display: inline-block;
+    font-weight: 500;
+    margin-bottom: 20px; /* вирахував по висоті блока в макеті. Там блок header-title 111px в висоту  */
+}
+.header-title h2 {
+    font-size: 60px;
+    line-height: 1.21;
+}
+.consulting-info {
+    margin: 0 0 100px 0;
+}
+.consulting-info-1 {
+}
+.title {
+    font-size: 40px;
+    line-height: 121%;
+    margin: 0 0 11px 0;
+}
+.consulting-title {
+}
+.consulting-info p {
+    line-height: 146.187%;
+}
+.consulting-info-1 p:not(:last-child) {
+    margin: 0 0 32px 0;
+}
+.consulting-info-2 p {
+    margin: 0 0 24px 0;
+}
+.green-text-last p {
+    margin: 0;
+}
+.consulting-sub-title {
+    font-size: 30px;
+}
+.consulting-sub-title a {
+    color: #40ddb6;
+    font-weight: 400;
+}
+.consulting-info-2 .consulting-sub-title {
+    margin: 0 0 8px 0;
+}
+.green-text {
+    color: #40ddb6;
+    line-height: 1.46;
+}
+.consulting-info-3 .green-text {
+    font-weight: 500;
+}
+.consulting-info-3 {
+    margin: 0;
+}
+/* ---------project-info---------- */
+
+.project-info {
+    padding: 0 15px;
+    max-width: 860px;
+    margin: 0 auto 150px;
+}
+.project-title {
+    line-height: 1.27;
+    margin: 0 0 13px 0;
+}
+.title {
+}
+.consulting-title {
+}
+.small-margin-text.project-text p {
+    margin: 0 0 24px 0;
+}
+.project-info p {
+    line-height: 1.46;
+    margin: 0 0 35px 0;
+}
+.project-info p:last-child {
+    margin: 0;
+}
+.list-box {
+    line-height: 1.46;
+    margin: 0 0 35px 0;
+    font-weight: 500;
+    padding: 0 0 0 16px;
+}
+.list-circle {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 12px 0 0;
+    width: 5.5px;
+    height: 5.5px;
+    border-radius: 50%;
+    background: #7d7d7d;
+}
+.project-ul-list {
+}
+.project-ul-item:not(:last-child) {
+    margin-bottom: 25px;
+}
+.project-ol-list {
+}
+.project-ol-item:not(:last-child) {
+    margin-bottom: 25px;
+}
+/* ---------training---------- */
+.training {
+    padding: 0 15px;
+    max-width: 1133px;
+    margin: 0 auto 50px;
+    font-size: 24px;
+    font-family: "popins", sans-serif;
+    color: #fff;
+}
+.training div {
+    margin: 0 auto 50px;
+    text-align: center;
+    min-height: 100px;
+    padding: 38px 0;
+}
+.training-title {
+    background-color: #494949;
+    padding: 35px 0;
+    /* border-radius: 20% 10% 21% 10% / 81% 22% 78% 19%; */
+    /* border-top: 10px solid rgb(255, 251, 0);
+    border-right: 10px solid rgb(255, 251, 0);
+    border-bottom: 10px solid blue;
+    border-left: 10px solid blue; */
+    box-shadow: -5px -5px 20px blue, 5px 5px 20px yellow;
+
+    /* box-shadow: inset 7px 7px 5.6px #000000; */
+}
+.training-title h2 {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 10px;
+    word-spacing: 20px;
+}
+.training-border {
+    background-color: #4b4b4b;
+    width: 950px;
+    border-top: 10px solid red;
+    border-right: 10px dashed green;
+    border-bottom: 10px double blueviolet;
+    border-left: 10px dotted brown;
+}
+.training-outline {
+    background-color: #6e6e6e;
+    width: 800px;
+    outline: 15px double #40ddb6;
+}
+.training-shadow {
+    background-color: #767676;
+    width: 650px;
+    box-shadow: inset 10px 10px 15px #000000;
+}
+.training-opacity {
+    background-color: #888;
+    width: 500px;
+    opacity: 0.2;
+    box-shadow: 5px 5px 20px #000;
+}
+.training-hidden {
+    background-color: #999;
+    width: 350px;
+    visibility: hidden;
+}
