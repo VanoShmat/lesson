@@ -325,6 +325,9 @@ footer {
     max-width: 860px;
     margin: 0 auto 150px;
 }
+.project-info > *:not(:last-child) {
+    margin: 0 0 35px 0;
+}
 .project-title {
     line-height: 1.27;
     margin: 0 0 13px 0;
@@ -338,14 +341,14 @@ footer {
 }
 .project-info p {
     line-height: 1.46;
-    margin: 0 0 35px 0;
+    /* margin: 0 0 35px 0; */
 }
 .project-info p:last-child {
     margin: 0;
 }
 .list-box {
     line-height: 1.46;
-    margin: 0 0 35px 0;
+    /* margin: 0 0 35px 0; */
     font-weight: 500;
     padding: 0 0 0 16px;
 }
