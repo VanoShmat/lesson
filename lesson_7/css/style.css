@@ -8,6 +8,9 @@
 /* -------------------------------- */
 /* ---------header------------- */
 /* -------------------------------- */
+main {
+    margin: 0 0 50px 0;
+}
 header {
     background: #37393f;
     font-family: "inter", sans-serif;
@@ -341,14 +344,12 @@ footer {
 }
 .project-info p {
     line-height: 1.46;
-    /* margin: 0 0 35px 0; */
 }
 .project-info p:last-child {
     margin: 0;
 }
 .list-box {
     line-height: 1.46;
-    /* margin: 0 0 35px 0; */
     font-weight: 500;
     padding: 0 0 0 16px;
 }
@@ -375,7 +376,7 @@ footer {
 .training {
     padding: 0 15px;
     max-width: 1133px;
-    margin: 0 auto 50px;
+    margin: 0 auto;
     font-size: 24px;
     font-family: "popins", sans-serif;
     color: #fff;
