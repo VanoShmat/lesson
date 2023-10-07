@@ -252,6 +252,7 @@ footer {
     margin: 0 auto 150px;
 }
 .header-title {
+    /* max-width: 296px; */
     margin: 0 auto 70px;
     text-align: center;
     color: #37393f;
@@ -268,9 +269,8 @@ footer {
 }
 .header-title p {
     font-size: 18px;
-    display: inline-block;
     font-weight: 500;
-    margin-bottom: 20px; /* вирахував по висоті блока в макеті. Там блок header-title 111px в висоту  */
+    margin-bottom: 20px;
 }
 .header-title h2 {
     font-size: 60px;
