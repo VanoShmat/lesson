@@ -1,0 +1,737 @@
+/* Підключення шрифтів */
+@import url("fonts.css");
+
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Основні стилі */
+
+.header {
+    padding: 40px 0;
+    background: #f4f4f4;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+.header-container {
+    max-width: 1245px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.header-menu {
+}
+.header-list {
+    font-size: 0;
+    text-align: center;
+}
+.header-item {
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 40px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.header-item:last-child {
+    margin-right: 0;
+}
+.header-item a {
+    display: inline-block;
+    border: 2px solid #37393f;
+    padding: 10px;
+    color: #37393f;
+    transition: all 0.3s;
+}
+.header-item a:hover {
+    background: #37393f;
+    color: #fff;
+}
+/* ----------footer--------- */
+.footer {
+    padding: 40px 0;
+    background: #f4f4f4;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+.footer-container {
+    max-width: 1245px;
+    padding: 0 15px;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer-link {
+    display: inline-block;
+    border: 2px solid #37393f;
+    padding: 10px;
+    margin: 0 0 20px 0;
+    color: #37393f;
+    transition: all 0.3s;
+    text-transform: uppercase;
+}
+.footer-link:hover {
+    background: #37393f;
+    color: #fff;
+}
+/* ----------training--------- */
+.training {
+    padding: 50px 0;
+    /* background: #ffdcdc; */
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+.training-container {
+    max-width: 1245px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.training-title {
+    text-align: center;
+    font-size: 50px;
+    margin: 0 0 30px 0;
+    text-transform: capitalize;
+    color: rgb(32, 101, 60);
+    font-weight: 600;
+}
+.training-blocks {
+    font-size: 0;
+}
+.training-box {
+    display: inline-block;
+    vertical-align: middle;
+    width: 40%;
+    padding: 15px;
+    height: 300px;
+}
+.training-box:nth-child(1),
+.training-box:nth-child(4),
+.training-box:nth-child(5) {
+    width: 60%;
+}
+.box-body {
+    background-color: #757c91;
+    padding: 60px 20px 20px 20px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.training-box:nth-child(1) > div,
+.training-box:nth-child(4) > div,
+.training-box:nth-child(5) > div {
+    background-color: #b39090;
+}
+.box-content {
+    color: #f4f4f4;
+    font-size: 20px;
+}
+.box-content p {
+    margin-bottom: 50px;
+}
+.box-content p:last-child {
+    margin-bottom: 0px;
+}
+.pseudo-name {
+    color: rgb(32, 101, 60);
+    font-size: 30px;
+}
+.pseudo-name-red {
+    color: rgb(197, 90, 90);
+}
+.content-link {
+    display: inline-block;
+    padding: 20px 30px;
+    background-color: #ccd394;
+}
+/* --------hover--------- */
+.link-hover:hover {
+    background-color: #fff;
+    color: #91b390;
+    padding: 30px 60px;
+    border-radius: 15px;
+    border: 2px solid #000;
+    margin-right: -200px;
+    font-size: 30px;
+}
+/* --------active--------- */
+.link-active:active {
+    background-color: #889048;
+}
+.link-active:hover {
+    background-color: #91b390;
+}
+/* --------visited--------- */
+.link-visited:visited {
+    background-color: #dadccc;
+    color: #a2a2a2;
+}
+.link-visited:hover {
+    background-color: #cce5cc;
+}
+/* --------focus--------- */
+.link-focus:focus {
+    background: rgb(197, 90, 90);
+    padding: 0 30px 0 0;
+    margin-top: -20px;
+    border-radius: 50px;
+}
+.link-focus:focus::before {
+    content: "Boom!";
+    display: inline-block;
+    background: rgb(142, 119, 119);
+    padding: 50px 50px;
+    margin-right: 30px;
+    border: 5px dotted #000;
+    border-radius: 50px;
+}
+.link-focus:hover {
+    background-color: #91b390;
+}
+/* --------target--------- */
+#training-box-modificated:target {
+    background-color: #bb16ad;
+    border-radius: 30% 70% 92% 8% / 30% 36% 64% 70%;
+    /* display: block; */
+}
+.link-target:hover {
+    background-color: #91b390;
+}
+/* --------before / after--------- */
+.link-before:hover {
+    background-color: #91b390;
+}
+#before::before {
+    content: "on me";
+    background-color: #b7ab8e;
+    padding: 20px 30px;
+    display: none;
+}
+#before:target::before {
+    display: inline-block;
+}
+#after::after {
+    content: "notion!";
+    background-color: #a98f4c;
+    padding: 20px 30px;
+    display: none;
+}
+#after:target::after {
+    display: inline-block;
+}
+#before:hover::before {
+    background-color: #756c56;
+}
+#after:hover::after {
+    background-color: #5d4a1b;
+}
+/* ------------------------------- */
+/* ---------design-part----------- */
+/* ------------------------------- */
+.consulting {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    color: #7d7d7d;
+}
+.consulting [class*="-title"] {
+    color: #37393f;
+}
+.consulting [class*="title"] {
+    font-family: "Poppins", sans-serif;
+}
+/* ---------why----------- */
+.why {
+    padding: 50px 0;
+}
+.why-container {
+    max-width: 722px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.why-body {
+    margin: 0 0 40px 0;
+}
+.why-title {
+    font-size: 30px;
+    line-height: 1.27;
+    font-weight: 600;
+    margin: 0 0 13px 0;
+    text-transform: capitalize;
+}
+.why-text {
+    line-height: 1.46;
+    margin: 0 0 42px 0;
+}
+.why-text:last-child {
+    margin: 0;
+}
+.why-text p:not(:last-child) {
+    margin: 0 0 15px 0;
+}
+.why-subtitle {
+    color: #6b77e5;
+    font-size: 20px;
+    line-height: 1.27;
+    font-weight: 600;
+    margin: 0 0 12px 0;
+}
+.why-benefits {
+    font-size: 0;
+    margin: 0 0 50px 0;
+}
+.benefits-before:before {
+    display: inline-block;
+    content: "";
+    height: 262px;
+    width: 331px;
+    background: rgb(212, 211, 211) url("../img/why/01.png") no-repeat center / cover;
+    margin: 0 29px 0 0;
+}
+.benefits-before {
+}
+.benefits-body {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 332px;
+}
+.benefits-head {
+    margin: 0 0 21px 0;
+}
+.benefits-title {
+    font-size: 25px;
+    line-height: 1.27;
+    font-weight: 600;
+    margin: 0 0 15px 0;
+}
+.benefits-title:last-child {
+    margin: 0;
+}
+.benefits-subtitle {
+    font-size: 20px;
+    line-height: 1.27;
+    font-weight: 600;
+    color: #40ddb6;
+}
+.benefits-list {
+    font-size: 18px;
+}
+.benefits-item:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: "";
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    margin: 0 8px 0 0;
+    background: url("../img/consulting-tick.svg") 0 0 no-repeat;
+}
+.benefits-item {
+    line-height: 1.4;
+    margin: 0 0 30px 0;
+    /* min-height: 27px; */
+}
+.benefits-item:last-child {
+    margin: 0;
+}
+/* ---------care----------- */
+.care {
+    padding: 50px 0;
+}
+.care-container {
+    max-width: 705px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.care-head {
+    min-width: 413px;
+    margin: 0 0 10px 0;
+}
+.about-head {
+    text-transform: capitalize;
+}
+.about-pretitle {
+    color: #37393f;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    margin: 0 0 16px 0;
+}
+.about-pretitle::before {
+    display: inline-block;
+    content: "";
+    width: 12px;
+    height: 12px;
+    background: #40ddb6;
+    margin: 0 6px 0 0;
+}
+.about-title {
+    font-size: 40px;
+    line-height: 1.21;
+    font-weight: 700;
+}
+.care-text {
+    line-height: 1.46;
+    margin: 0 0 48px 0;
+}
+.care-text p:not(:last-child) {
+    margin: 0 0 25px 0;
+}
+.care-cards {
+    margin: 0 0 48px 0;
+}
+.care-card {
+    padding: 28px 41px 28px 84px;
+    margin: 0 0 31px 0;
+    border: 1px solid #e3e3e3;
+    transition: all 0.3s;
+}
+.care-card:hover {
+    background: #f2f2f2;
+}
+.care-card:last-child {
+    margin: 0;
+}
+.care-card-title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin: 0 0 12px 0;
+    text-transform: capitalize;
+}
+.care-card-title::before {
+    display: inline-block;
+    vertical-align: middle;
+    content: "";
+    width: 27px;
+    height: 27px;
+    margin: 0 19px 0 -46px;
+    background: url("../img/consulting-tick.svg");
+    transition: all 0.3s;
+}
+.care-card:hover > h6::before {
+    background: url("../img/consulting-tick-hover.svg");
+}
+.care-card-text {
+    line-height: 1.46;
+}
+.care-button {
+    display: inline-block;
+    padding: 21px 35px 22px 35px;
+    background: #6b77e5;
+    color: #fff;
+    transition: all 0.3s;
+}
+.care-button:hover {
+    background: #40ddb6;
+    border-radius: 10px;
+}
+/* ---------work----------- */
+.work {
+    padding: 50px 0;
+}
+.work-container {
+    max-width: 1250px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.work-head {
+    text-align: center;
+    margin: 0 0 41px 0;
+}
+.work-card {
+    font-size: 0;
+    padding: 36px 0 0 0;
+}
+.work-card-body {
+    display: inline-block;
+    text-align: center;
+    padding: 58px 43px;
+    margin: 0 31px 0 0;
+    max-width: 386px;
+    background: #f4f4f4;
+}
+.work-card-body:last-child {
+    margin: 0;
+}
+.work-card-1::before {
+    display: block;
+    content: "";
+    background: url("../img/work/01.svg") no-repeat center / cover;
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    margin: -94px auto 22px;
+}
+.work-card-2::before {
+    display: block;
+    content: "";
+    background: url("../img/work/02.svg") no-repeat center / cover;
+    background: url("../img/consulting-tick.svg") no-repeat center / cover;
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    margin: -94px auto 22px;
+}
+.work-card-3::before {
+    display: block;
+    content: "";
+    background: url("../img/work/03.svg") no-repeat center / cover;
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    margin: -94px auto 22px;
+}
+.work-card-title {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.27;
+    margin: 0 0 16px 0;
+    text-transform: capitalize;
+}
+.work-card-text {
+    font-size: 18px;
+    line-height: 1.46;
+    margin: 0 0 37px 0;
+}
+.work-card-link {
+    color: #6b77e5;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.work-card-link:hover {
+    color: #40ddb6;
+    text-decoration: underline #6b77e5;
+}
+/* ---------develop----------- */
+.develop {
+    padding: 50px 0;
+    font-family: "Cormorant Infant", serif;
+}
+.develop-container {
+    max-width: 1244px;
+    padding: 0 15px;
+    margin: 0 auto;
+    font-size: 0;
+}
+.develop-head {
+    display: inline-block;
+    vertical-align: top;
+    padding: 150px 0 0 0;
+    margin: 0 3px 0 0;
+}
+.develop-title {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.15;
+    max-width: 478px;
+}
+.develop-head:after {
+    display: block;
+    content: "";
+    background: #78473b;
+    width: 63%;
+    height: 3px;
+    margin: 13px 0 0 0;
+}
+.develop-cards {
+    display: inline-block;
+}
+.develop-card {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 334px;
+}
+.develop-card-1 {
+    padding: 41px 0 0 0;
+    margin: 0 55px 0 0;
+}
+.develop-card-img {
+    display: inline-block;
+    margin: 0 0 25px 0;
+}
+.develop-card-img::before {
+    display: inline-block;
+    content: "";
+    width: 334px;
+    height: 381px;
+    border: 1px solid #000;
+}
+.develop-card-img-1,
+.develop-card-img-2 {
+    margin: -372px 0px 0 10px;
+    width: 100%;
+    transition: all 0.3s;
+}
+.develop-card-img:hover > .develop-card-img-1,
+.develop-card-img:hover > .develop-card-img-2 {
+    margin: -381px 0px 9px 0px;
+    border: 2px solid #000;
+}
+.develop-card-link {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.4;
+    margin: 0 0 4px 0;
+}
+.develop-card-link:hover {
+    text-decoration: underline;
+}
+.develop-card p {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+.develop-card-2 {
+}
+.develop-card-2-title {
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 1.13;
+    margin: 0 0 40px 0;
+}
+.develop-card-img-2 {
+}
+/* ---------game----------- */
+.game {
+    padding: 50px 0;
+    font-family: "Inter", sans-serif;
+}
+.game-container {
+    max-width: 1274px;
+    padding: 15px;
+    margin: 0 auto;
+    text-align: center;
+}
+.game-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(8, 67, 170);
+    color: #fff;
+    margin: 0 0 20px 0;
+    transition: all 0.3s;
+    font-size: 30px;
+}
+.game-btn:hover {
+    background-color: rgb(42, 107, 219);
+    border-radius: 5px;
+}
+.game-body {
+    padding: 0 15px;
+    display: none;
+    height: 1200px;
+    background-color: #c26e6e;
+}
+.game-body:target {
+    display: block;
+}
+.start {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(225, 225, 6);
+    margin: 0 auto;
+    padding: 13px 0;
+    font-size: 14px;
+}
+.start:hover + div {
+    visibility: visible;
+}
+[class*="line-"]:hover {
+    visibility: visible;
+}
+[class*="line-"]:hover + div {
+    visibility: visible;
+}
+.line-1 {
+    width: 40px;
+    height: 100px;
+    background-color: #fff;
+    margin: 0 auto;
+    visibility: hidden;
+}
+.line-2 {
+    width: 270px;
+    height: 40px;
+    background-color: #fff;
+    margin: 0 0 0 587px;
+    visibility: hidden;
+}
+.line-3 {
+    width: 40px;
+    height: 80px;
+    background-color: #fff;
+    margin: -120px 0 0 817px;
+    visibility: hidden;
+}
+.line-4 {
+    width: 350px;
+    height: 40px;
+    background-color: #fff;
+    margin: -120px 0 0 817px;
+    visibility: hidden;
+}
+.line-5 {
+    width: 40px;
+    height: 400px;
+    background-color: #fff;
+    margin: 0 0 0 1127px;
+    visibility: hidden;
+}
+.line-6 {
+    width: 1167px;
+    height: 40px;
+    background-color: #fff;
+    visibility: hidden;
+}
+.line-7 {
+    width: 40px;
+    height: 400px;
+    background-color: #fff;
+    visibility: hidden;
+}
+.line-8 {
+    width: 300px;
+    height: 40px;
+    background-color: #fff;
+    visibility: hidden;
+}
+.line-9 {
+    width: 40px;
+    height: 880px;
+    background-color: #fff;
+    margin: -920px 0 0 260px;
+    visibility: hidden;
+}
+.line-10 {
+    width: 60px;
+    height: 40px;
+    background-color: #fff;
+    margin: -880px 0 0 297px;
+    visibility: hidden;
+}
+.line-10:hover + a {
+    visibility: visible;
+}
+.line-11 {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: #56ad34;
+    color: #fff;
+    margin: -40px 0 0 357px;
+    padding: 2px 0;
+    font-size: 12px;
+    visibility: hidden;
+}
+.line-11:hover {
+    background-color: #58c02e;
+}
+.game-prize {
+    padding: 200px 0;
+    display: none;
+    height: 1200px;
+    background: url("../img/game/prize.jpg") no-repeat center / cover;
+}
+.game-prize p {
+    font-size: 100px;
+    color: #fff;
+    letter-spacing: 10px;
+}
+.game-prize:target {
+    display: block;
+}

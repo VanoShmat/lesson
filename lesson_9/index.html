@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Lesson 9 - Pseudo-classes; Pseudo-elements</title>
+</head>
+
+<body>
+    <header id="header" class="header">
+        <div class="header-container">
+            <div class="header-menu">
+                <ul class="header-list">
+                    <li class="header-item">
+                        <a target="_blank" href="https://vanoshmat.github.io/lesson/all_lessons/">all projects</a>
+                    </li>
+                    <li class="header-item"><a href="#training">training</a></li>
+                    <li class="header-item"><a href="#why">why us</a></li>
+                    <li class="header-item"><a href="#care">we care</a></li>
+                    <li class="header-item"><a href="#work">how we work</a></li>
+                    <li class="header-item"><a href="#develop">jewels</a></li>
+                    <li class="header-item"><a href="#game">game</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="training" class="training">
+            <div class="training-container">
+                <h1 class="training-title">training section</h1>
+                <div class="training-blocks">
+                    <div class="training-box">
+                        <div class="box-body">
+                            <div class="box-content">
+                                <p>
+                                    <span class="pseudo-name">:hover </span>— звернення до елемента у стані "при
+                                    наведенні
+                                    миші".  Застосовується до
+                                    будь-якого елемента.
+                                </p>
+                                <a href="#training" class="content-link link-hover">Catch me :)</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="training-box">
+                        <div class="box-body">
+                            <div class="box-content">
+                                <p>
+                                    <span class="pseudo-name pseudo-name-red">:active</span>
+                                     — звернення до елемента у стані "при натиснутій клавіші миші".
+                                </p>
+                                <a href="#training" class="content-link link-active">
+                                    Тиць
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="training-box">
+                        <div class="box-body">
+                            <div class="box-content">
+                                <p>
+                                    <span class="pseudo-name pseudo-name-red">:visited</span>
+                                     — звернення до елемента у стані "відвіданого посилання" обмежена кількість
+                                    властивостей.
+                                </p>
+                                <a href="#training" class="content-link link-visited">
+                                    Знову тиць
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="training-box">
+                        <div class="box-body">
+                            <div class="box-content">
+                                <p>
+                                    <span class="pseudo-name">:focus</span>
+                                     — звернення до елементу у стані "фокусу":
+                                </p>
+                                <a href="#training" class="content-link link-focus">
+                                    Focus-pocus
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="training-box">
+                        <div id="training-box-modificated" class="box-body">
+                            <div class="box-content ">
+                                <p>
+                                    <span class="pseudo-name">:target</span>
+                                     — звернення до елемента у стані "ефекту від посилання з іншого об'єкту":
+                                </p>
+                                <a href="#training-box-modificated" class="content-link link-target">
+                                    WTF??
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="training-box">
+                        <div class="box-body">
+                            <div class="box-content">
+                                <p>
+                                    <span class="pseudo-name pseudo-name-red">
+                                        ::before{}; ::after{}
+                                    </span>
+                                </p>
+                                <a id="before" href="#after"></a>
+                                <a href="#before" class="content-link link-before">
+                                    Click
+                                </a>
+                                <a id="after" target="_blank"
+                                    href="https://fish-flute-4d3.notion.site/ed45efc8d6e94249865076650fcddd25?v=b1e6974b796247f0a04a0ee3a3e396b0"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="consulting">
+            <div id="why" class="why">
+                <div class="why-container">
+                    <div class="why-body">
+                        <h2 class="why-title">
+                            Why Us For International Business Management Consulting!
+                        </h2>
+                        <div class="why-text">
+                            <p>
+                                Completely synergized resourced taxings relationships premiers markets ultivate
+                                one-to-one
+                                customer service with robust ideas dynamically innovated resources leveling customer
+                                service
+                                for state of the art customer service innovate product for reliable supply engage web
+                                services cutting-edge deliverables.
+                            </p>
+                        </div>
+                        <h4 class="why-subtitle">
+                            Proactively envisioned multimedia based expertise media growth superior collaboration.
+                        </h4>
+                        <div class="why-text">
+                            <p>
+                                One-to-one customer service with robust ideas dynamically innovated resources for
+                                reliable
+                                supply engage web services cutting-edge deliverables.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="why-benefits">
+                        <span class="benefits-before"></span>
+                        <div class="benefits-body">
+                            <div class="benefits-head">
+                                <h3 class="benefits-title">Our benefits</h3>
+                                <h4 class="benefits-subtitle">Incubate standards compliant channels benefits.</h4>
+                            </div>
+                            <ul class="benefits-list">
+                                <li class="benefits-item">Credibly reintermediate backend</li>
+                                <li class="benefits-item">Holistically foster superior</li>
+                                <li class="benefits-item">Distinctively exploit optimal</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="why-footer">
+                        <h2 class="why-title">Frequently Asked Questions</h2>
+                        <div class="why-text">
+                            <p>
+                                Leveling customer service for state of the art customer service innovate product for
+                                reliable supply engage web services cutting-edge deliverables.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="care" class="care">
+                <div class="care-container">
+                    <div class="care-head about-head">
+                        <h5 class="about-pretitle">Welcome Whitecollar</h5>
+                        <h2 class="about-title">We Care About Your Business Plan.</h2>
+                    </div>
+                    <div class="care-text">
+                        <p>
+                            Leverage agile frameworks to provide a robust synopsis for high level overviews.Iterative
+                            approaches to corporate strategy foster collaborative thinking to further the overal.
+                        </p>
+                        <p>
+                            Leverage agile frameworks to provide a robust synopsis for high level overviews.Iterative
+                            approaches to corporate strategy
+                        </p>
+                    </div>
+                    <ul class="care-cards">
+                        <li class="care-card">
+                            <h6 class="care-card-title">Our Vision</h6>
+                            <div class="care-card-text">
+                                Capitalize on low hanging fruit to identify a ballpark value added activity to beta
+                                clickthroughs.
+                            </div>
+                        </li>
+                        <li class="care-card">
+                            <h6 class="care-card-title">Our Vision</h6>
+                            <div class="care-card-text">
+                                Capitalize on low hanging fruit to identify a ballpark value added activity to beta
+                                clickthroughs.
+                            </div>
+                        </li>
+                    </ul>
+                    <a href="#care" class="care-button">More About Us</a>
+                </div>
+            </div>
+            <div id="work" class="work">
+                <div class="work-container">
+                    <div class="work-head about-head">
+                        <h5 class="about-pretitle">Work Process</h5>
+                        <h2 class="about-title">How We Work</h2>
+                    </div>
+                    <div class="work-cards">
+                        <div class="work-card">
+                            <div class="work-card-body work-card-1">
+                                <h4 class="work-card-title">Make Appointment</h4>
+                                <div class="work-card-text">
+                                    <p>
+                                        Leverage agile frameworks provide
+                                        synopsishigh level overviews
+                                        value proposition.
+                                    </p>
+                                </div>
+                                <a href="#work" class="work-card-link">Testimonials</a>
+                            </div>
+                            <div class="work-card-body work-card-2">
+                                <h4 class="work-card-title">Consultation</h4>
+                                <div class="work-card-text">
+                                    <p>
+                                        Leverage agile frameworks provide
+                                        synopsishigh level overviews
+                                        value proposition.
+                                    </p>
+                                </div>
+                                <a href="#work" class="work-card-link">Testimonials</a>
+                            </div>
+                            <div class="work-card-body work-card-3">
+                                <h4 class="work-card-title">Enjoy the Service</h4>
+                                <div class="work-card-text">
+                                    <p>
+                                        Leverage agile frameworks provide
+                                        synopsishigh level overviews
+                                        value proposition.
+                                    </p>
+                                </div>
+                                <a href="#work" class="work-card-link">Testimonials</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="develop" class="develop">
+            <div class="develop-container">
+                <div class="develop-head">
+                    <h2 class="develop-title">We Develop Create Custom Jewels.</h2>
+                </div>
+                <div class="develop-cards">
+                    <div class="develop-card develop-card-1">
+                        <a href="#develop" class="develop-card-img">
+                            <img class="develop-card-img-1" src="img/develop/01.png" alt="ring on hand">
+                        </a>
+                        <a class="develop-card-link" href="#develop">Embossed hoop earrings</a>
+                        <p>$144.00</p>
+                    </div>
+                    <div class="develop-card develop-card-2">
+                        <h3 class="develop-card-2-title">#02 <br> new jewellery collection</h3>
+                        <a href="#develop" class="develop-card-img">
+                            <img class="develop-card-img-2" src="img/develop/02.png" alt="ring on hand">
+                        </a>
+                        <a class="develop-card-link" href="#develop">Embossed hoop earrings</a>
+                        <p>$144.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="game" class="game">
+            <div class="game-container">
+                <a href="#start-game" class="game-btn">Start Game</a>
+                <div id="start-game" class="game-body">
+                    <div class="start">Start</div>
+                    <div class="line-1"></div>
+                    <div class="line-2"></div>
+                    <div class="line-3"></div>
+                    <div class="line-4"></div>
+                    <div class="line-5"></div>
+                    <div class="line-6"></div>
+                    <div class="line-7"></div>
+                    <div class="line-8"></div>
+                    <div class="line-9"></div>
+                    <div class="line-10"></div>
+                    <a href="#prize" class="line-11">get the prize</a>
+                </div>
+                <div id="prize" class="game-prize">
+                    <p> Winner!!</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <a href="#header" class="footer-link">scroll up</a>
+            <p>HW_9 © 2023</p>
+        </div>
+    </footer>
+</body>
+
+</html>
