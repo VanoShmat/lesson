@@ -154,7 +154,7 @@
     background-color: #889048;
 }
 .link-active:hover {
-    background-color: #91b390;
+    outline: 1px solid #fff;
 }
 /* --------visited--------- */
 .link-visited:visited {
