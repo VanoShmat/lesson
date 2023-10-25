@@ -1,0 +1,162 @@
+/* Підключення шрифтів */
+@import url("fonts.css");
+
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Основні стилі */
+body {
+    font-family: "inter", sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.58) 100%, rgba(0, 0, 0, 0.58) 100%), url("../img/background-img.webp") center / cover fixed;
+    color: aliceblue;
+}
+.header {
+    padding: 50px 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.38) 100%, rgba(0, 0, 0, 0.58) 100%);
+}
+.header-container {
+    max-width: 1250px;
+    padding: 0 15px;
+    margin: 0 auto;
+    text-align: center;
+}
+.projects-link {
+    display: inline-block;
+    font-size: 24px;
+    text-transform: capitalize;
+    background-color: #6d9166;
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin-bottom: 40px;
+    transition: background-color 0.3s;
+}
+.projects-link:hover {
+    background-color: #425c3d;
+}
+.header-title {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.header-title::before {
+    display: inline-block;
+    vertical-align: middle;
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: #59daf1;
+    margin: 0 10px 0 0;
+}
+/* --------body-------- */
+.main-container {
+    max-width: 1450px;
+    padding: 50px 15px;
+    margin: 0 auto;
+}
+/* --------------common------------------- */
+.section-container {
+    padding: 50px 15px;
+    background: linear-gradient(rgba(0, 0, 0, 0.25) 100%, rgba(0, 0, 0, 0.58) 100%);
+    border: 1px solid #425c3d;
+}
+.section-container:hover {
+    background: linear-gradient(rgba(167, 165, 165, 0.5) 100%, rgba(0, 0, 0, 0.58) 100%);
+}
+.section-container p {
+    display: inline-block;
+    font-size: 30px;
+}
+.section-container:not(:last-child) {
+    margin: 0 0 100px 0;
+}
+.section-container p::before {
+    display: inline-block;
+    vertical-align: middle;
+    content: "";
+    width: 50px;
+    height: 9px;
+    background: #59daf1;
+    border-radius: 10px;
+    margin: 0 70px 0 0;
+}
+.section-images {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 70px 0 0;
+    text-align: center;
+    width: 710px;
+}
+.section-images img {
+    margin: 0 10px 0 0;
+}
+.section-images-group:not(:last-child) {
+    margin: 0 0 40px 0;
+}
+/* --------------separate------------------- */
+.icon-vector-container {
+}
+.icon-vector-images {
+}
+.icon-vector-images img {
+    height: 48px;
+}
+.icon-vector-header {
+}
+.icon-vector-main {
+}
+
+.content-vector-container {
+}
+.content-vector-images {
+}
+.content-vector-images img {
+    height: 72px;
+}
+.content-vector-achievements {
+}
+.content-vector-solutions {
+}
+.content-vector-partners {
+}
+
+.content-rastr-container {
+}
+.content-rastr-images {
+}
+.content-rastr-images img {
+    /* height: 300px; */
+    max-width: 700px;
+}
+.content-rastr-main {
+}
+.content-rastr-ready {
+}
+.content-rastr-provide {
+}
+/* ---------footer-------- */
+.footer {
+    padding: 50px 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.38) 100%, rgba(0, 0, 0, 0.58) 100%);
+}
+.footer-container {
+    max-width: 1250px;
+    padding: 0 15px;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer-up {
+    display: inline-block;
+    font-size: 24px;
+    text-transform: capitalize;
+    background-color: #6d9166;
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin-bottom: 40px;
+    transition: background-color 0.3s;
+}
+.footer-up:hover {
+    background-color: #425c3d;
+}
+.footer-container p {
+    font-size: 18px;
+}
