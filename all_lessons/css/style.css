@@ -1,47 +1,41 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:regular&display=swap");
 /* ----------------- */
 /* --RESET STYLES--- */
 /* ----------------- */
 @import url("reset.css");
 /* ------------------ */
 body {
-    font-family: sans-serif;
-    background: #fff;
-    /* color: #ffffffbf; */
+    font-family: "inter", sans-serif;
 }
 .wrapper {
+    background-color: #37393f;
+    overflow: hidden;
     min-height: 100%;
-    display: flex;
-    flex-direction: column;
-    overflow: clip;
 }
-[class*="__container"] {
-    max-width: 1310px;
+.homework {
+    padding: 50px 0;
+}
+.homework__container {
+    max-width: 830px;
+    padding: 0 15px;
     margin: 0 auto;
-    padding: 0px 15px;
 }
 .homework__body {
 }
 .homework__project {
-    margin: 30px auto;
-    max-width: 700px;
-    height: 100px;
-    background: linear-gradient(90deg, rgba(99, 143, 142, 1) 0%, rgba(150, 142, 142, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    font-size: 30px;
     text-align: center;
-    line-height: 3.39;
-    transition: all 0.5s ease 0s;
 }
-.homework__project:hover {
-    background-color: #3c535e;
-    /* outline: 1px solid rgba(129, 129, 139, 0.4); */
-    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.03), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0227778),
-        0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0182222), 0px 20px 13px rgba(0, 0, 0, 0.015),
-        0px 8.14815px 6.51852px rgba(0, 0, 0, 0.0117778), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00722222),
-        3px 44px 54px rgba(0, 0, 0, 0.08);
+.homework__project:not(:last-child) {
+    margin: 0 0 30px 0;
 }
 .homework__link {
-    color: #fff;
-    font-size: 30px;
-    font-weight: 700;
-    padding: 32px 274px;
-    text-transform: uppercase;
+    display: inline-block;
+    padding: 30px;
+    background-color: #845656;
+    width: 320px;
+    transition: all 0.3s;
+}
+.homework__link:hover {
+    background-color: #724b4b;
 }
