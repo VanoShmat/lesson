@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>lesson_13 - Transform</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container">
+                <ul class="header__menu">
+                    <li class="header__item">
+                        <a href="#" class="header__link">item 1</a>
+                        <ul class="header__sub-menu sub-menu">
+                            <li class="sub-menu__item"><a href="#" class="sub-menu__link">item</a></li>
+                            <li class="sub-menu__item"><a href="#" class="sub-menu__link">item</a></li>
+                            <li class="sub-menu__item"><a href="#" class="sub-menu__link">item</a></li>
+                        </ul>
+                    </li>
+                    <li class="header__item"><a href="#" class="header__link">item 2</a></li>
+                    <li class="header__item"><a href="#" class="header__link">item 3</a></li>
+                    <li class="header__item"><a href="#" class="header__link">item 4</a></li>
+                    <li class="header__item"><a href="#" class="header__link">item 5</a></li>
+                </ul>
+            </div>
+        </header>
+        <main class="page">
+            <div class="car">
+                <div class="car__container">
+                    <div class="car__body">
+                        <div class="car__back back-part">
+                            <div class="back-part__light"></div>
+                            <div class="back-part__spoiler"></div>
+                            <div class="back-part__bumper"></div>
+                        </div>
+                        <div class="car__middle middle-part">
+                            <div class="middle-part__door">
+                                <div class="middle-part__handle"></div>
+                            </div>
+                        </div>
+                        <div class="car__front front-part">
+                            <div class="front-part__light"></div>
+                            <div class="front-part__bumper"></div>
+                            <div class="front-part__spoiler"></div>
+                        </div>
+                        <div class="car__wheel car__wheel--1 wheel-car">
+                            <div class="wheel-car__center"></div>
+                        </div>
+                        <div class="car__wheel car__wheel--2 wheel-car">
+                            <div class="wheel-car__center"></div>
+                        </div>
+                        <div class="car__roof roof">
+                            <div class="roof__back"></div>
+                            <div class="roof__front"></div>
+                            <div class="roof__fill"></div>
+                            <div class="roof__back-window"></div>
+                            <div class="roof__middle-window-1"></div>
+                            <div class="roof__middle-window-2"></div>
+                            <div class="roof__middle-window-fill"></div>
+                            <div class="roof__front-window"></div>
+                            <div class="roof__mirror"></div>
+                            <div class="roof__stick"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="training">
+                <div class="training__container">
+                    <div class="training__2d">
+                        <div class="training__box training__box--translate">
+                            <div class="training__inside training__inside--translate">
+                                transform: translate(-50%, 10px);
+                            </div>
+                        </div>
+                        <div class="training__box">
+                            <div class="training__inside training__inside--scale">
+                                transform: scale(0.5);
+                            </div>
+                        </div>
+                        <div class="training__box">
+                            <div class="training__inside training__inside--rotate">
+                                transform-origin: 0 0;
+                                transform: rotate(70deg);
+                            </div>
+                        </div>
+                        <div class="training__box">
+                            <div class="training__inside training__inside--skew">
+                                transform: skew(-20deg);
+                            </div>
+                        </div>
+                        <div class="training__box">
+                            <div class="training__inside training__inside--multi">
+                                transform-origin: top right;<br>
+                                transform: translate(30px, -10px) scale(0.8) rotate(40deg) skew(15deg);
+                            </div>
+                        </div>
+                    </div>
+                    <div class="training__3d">
+                        <div class="training__box">
+                            <div class="training__inside training__inside--translate-3d">
+                                transform: translate3d(20px, 20px, -10px);
+                            </div>
+                        </div>
+                        <div class="training__box">
+                            <div class="training__inside training__inside--scale-3d">
+                                transform: scale3d(1.1, 0.7, 5);
+                            </div>
+                        </div>
+                        <div class="training__box">
+                            <div class="training__inside training__inside--rotate-3d">
+                                transform: rotate3d(10, 0, 0, 30deg);
+                            </div>
+                        </div>
+                        <div class="training__box">
+                            <div class="training__inside training__inside--multi-3d">
+                                transform: translate3d(30px, -10px, 5px) rotate3d(10, 0, -4, -40deg);
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip">
+                        <div class="flip__body">
+                            <div class="flip__front">front</div>
+                            <div class="flip__back">back</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer__container">
+                <p>Car & Transform training</p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
