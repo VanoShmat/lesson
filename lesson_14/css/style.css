@@ -130,6 +130,7 @@
 }
 @keyframes car-down {
     0% {
+        transform: translate(0, 0);
     }
     100% {
         transform: translate(0, 14px);
@@ -137,6 +138,7 @@
 }
 @keyframes car-ride {
     0% {
+        transform: translate(0, 14px);
     }
     20% {
         transform: scale(0.3) translate(-1500px, 169%);
@@ -215,6 +217,7 @@
 }
 @keyframes spoiler-up {
     0% {
+        transform: rotate(-5deg);
     }
     100% {
         transform: rotate(15deg);
@@ -344,6 +347,7 @@
 }
 @keyframes wheel-up {
     0% {
+        transform: translate(0);
     }
     100% {
         transform: translate(0, -14px);
@@ -531,9 +535,6 @@
     10% {
         transform: translate(0px, -80px) rotate(-20deg) scale(1);
     }
-    50% {
-        /* transform: translate(0px, -100px) rotate(-360deg); */
-    }
     80% {
         transform: translate(0px, -120px) rotate(-650deg) scale(0.7);
     }
@@ -573,6 +574,7 @@
 }
 @keyframes jump {
     0% {
+        transform: translate(0, 0%);
     }
     50% {
         transform: translate(0, -60%);
