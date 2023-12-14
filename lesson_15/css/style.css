@@ -1,0 +1,197 @@
+/* Підключення шрифтів */
+@import url("fonts.css");
+
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Основні стилі */
+.wrapper {
+    min-height: 100%;
+    overflow: clip;
+
+    display: flex;
+    flex-direction: column;
+}
+.wrapper > main {
+    flex-grow: 1;
+}
+.header {
+    padding: 33px 0;
+
+    font-family: "Causten", sans-serif;
+    font-size: 18px;
+    line-height: 1.2;
+}
+.header__container {
+    max-width: 1270px;
+    min-height: 46px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+.header__start {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 439px;
+}
+.start-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.start-header__logo {
+}
+.start-header__logo img {
+    max-width: 91px;
+    max-height: 46px;
+}
+.start-header__search {
+    color: #807d7e;
+    border-radius: 8px;
+    background: #f6f6f6;
+    padding: 12px 48px;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    transition: all 0.3s;
+}
+.start-header__search span {
+}
+.start-header__search::before {
+    content: "";
+    display: inline-block;
+    background: url(../img/header/search.svg) 0 0;
+    width: 20px;
+    height: 20px;
+}
+.start-header__search:hover {
+    background: #eeeeee;
+    color: #919191;
+    cursor: text;
+}
+.header__end {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 591px;
+}
+.end-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.end-header__language {
+    position: relative;
+    min-width: 206px;
+    color: #333;
+    position: relative;
+    transition: background-color 0.3s;
+}
+.end-header__language::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 7px;
+    transform: translateY(-50%);
+
+    width: 0;
+    height: 0;
+    border-top: 5px solid #333;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    transition: all 0.2s;
+}
+.end-header__language:hover::after {
+    transform: rotate(180deg);
+}
+.end-header__language:hover {
+    background-color: rgb(245, 244, 244);
+    border-radius: 8px 8px 0 0;
+    padding: 10px 37px 10px 10px;
+    left: -10px;
+}
+.end-header__main-language {
+}
+.end-header__list {
+    position: absolute;
+    width: 100%;
+    visibility: hidden;
+    /* top: -100%; */
+    left: -10000px;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+.end-header__language:hover .end-header__list {
+    visibility: visible;
+    background-color: rgb(245, 244, 244);
+    border-radius: 0 0 8px 8px;
+    left: 0;
+}
+.end-header__item {
+}
+.end-header__link {
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    transition: all 0.3s;
+}
+.end-header__link:hover {
+    color: #8a33fd;
+}
+.end-header__link::after {
+    display: block;
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: #8a33fd;
+    position: absolute;
+    left: 50%;
+    transition: all 0.3s;
+}
+.end-header__link:hover::after {
+    left: 0;
+    width: 100%;
+}
+.end-header__buttons {
+    font-weight: 500;
+    flex: 0 1 325px;
+    gap: 10px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+.end-header__buttons > *:not(:last-child) {
+    /* margin-right: 29px; */
+}
+.end-header__login-btn {
+    flex: 0 0 140px;
+    padding: 12px 48px;
+    border-radius: 8px;
+    background: #8a33fd;
+    color: #fff;
+    transition: all 0.3s;
+    position: relative;
+}
+.end-header__login-btn:hover {
+    background: #6620c1;
+    box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.1);
+}
+.end-header__signup-btn {
+    line-height: 1.1;
+    flex: 0 0 156px;
+    padding: 12px 47px;
+    border-radius: 8px;
+    border: 1px solid #3c4242;
+    color: #8a33fd;
+    transition: all 0.3s;
+    background: rgba(102, 32, 193, 0.03);
+}
+.end-header__signup-btn:hover {
+    background: rgba(140, 127, 156, 0.137);
+}
