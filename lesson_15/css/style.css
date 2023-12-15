@@ -314,14 +314,14 @@
 }
 .card-product__arrow {
     flex: 0 0 18px;
-    background: url(/img/products/arrow.svg) center no-repeat;
+    background: url(../img/products/arrow.svg) center no-repeat;
     max-height: 46.5px;
     transition: all 0.2s;
 }
 .card-product__arrow:hover {
     flex: 0 0 28px;
     /* transform: scale(2); */
-    background: url(/img/products/arrow-hover.svg) center no-repeat;
+    background: url(../img/products/arrow-hover.svg) center no-repeat;
 }
 /* -------whishlist------- */
 .whishlist {
@@ -350,14 +350,15 @@
 }
 .card-whishlist {
     display: flex;
+    /* flex-wrap: wrap; */
     gap: 36px;
     align-items: center;
 }
 .card-whishlist__close {
     flex: 0 0 22px;
     height: 22px;
-    /* max-height: 110px; */
-    background: url(/img/whishlist/close.svg) center no-repeat;
+    max-height: 110px;
+    background: url(../img/whishlist/close.svg) center no-repeat;
 }
 .card-whishlist__image {
     flex: 0 0 110px;
@@ -388,6 +389,7 @@
     /* flex-grow: 0;
     flex-shrink: 0; */
     display: flex;
+    /* flex-wrap: wrap; */
     flex-direction: column;
     justify-content: space-around;
     row-gap: 12px;
