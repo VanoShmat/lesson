@@ -15,12 +15,29 @@
 .wrapper > main {
     flex-grow: 1;
 }
+.page {
+}
+.page__container {
+    max-width: 1270px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.page__products {
+    margin: 0 0 50px 0;
+}
+.page__whishlist {
+    margin: 0 0 50px 0;
+}
+/* -------header------- */
 .header {
     padding: 33px 0;
-
     font-family: "Causten", sans-serif;
     font-size: 18px;
     line-height: 1.2;
+    border-bottom: 1px solid #bebcbd;
+}
+.header--margin {
+    margin: 0 0 50px 0;
 }
 .header__container {
     max-width: 1270px;
@@ -64,7 +81,7 @@
 .start-header__search::before {
     content: "";
     display: inline-block;
-    background: url(../img/header/search.svg) 0 0;
+    background: url(../img/header/search.svg) center no-repeat;
     width: 20px;
     height: 20px;
 }
@@ -196,4 +213,200 @@
 }
 .end-header__signup-btn:hover {
     background: rgba(140, 127, 156, 0.137);
+}
+/* ---------products---------- */
+.products {
+}
+.products__title {
+    margin: 0 0 70px 0;
+}
+.title {
+    color: #3c4242;
+    font-family: "Core Sans C";
+    font-size: 34px;
+    font-weight: 600;
+    letter-spacing: 0.68px;
+    display: flex;
+    gap: 20px;
+}
+.title::before {
+    content: "";
+    position: relative;
+    top: 2px;
+    left: 0;
+    flex: 0 0 6px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #8a33fd;
+}
+.title__main {
+}
+.products__items {
+    display: flex;
+    row-gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: "Causten";
+    margin: 0 -25px 0 -25px;
+}
+.products__item {
+    display: flex;
+    flex: 0 0 25%;
+    padding: 0 25px 0 25px;
+}
+.product__card {
+}
+.card-product {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    min-height: 100%;
+}
+.card-product__image {
+    min-width: 271px;
+    min-height: 393px;
+    margin: 0 0 15px 0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card-product__image img {
+    width: 100%;
+    height: 100%;
+    transform: scale(1.01);
+    transition: transform 0.4s;
+}
+.card-product__image:hover img {
+    transform: scale(1.04);
+}
+.card-product__body {
+    display: flex;
+    flex-grow: 1;
+}
+.card-product__info {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+.card-product__title {
+    color: #2a2f2f;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: -0.715px;
+    line-height: 1.5;
+    position: relative;
+    flex-grow: 1;
+}
+.card-product__link-title {
+    display: inline-block;
+    transition: all 0.2s;
+}
+.card-product__link-title:hover {
+    color: #8a33fd;
+    text-decoration: underline;
+}
+.card-product__text {
+    color: #7f7f7f;
+    font-family: "Causten";
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: -0.536px;
+}
+.card-product__arrow {
+    flex: 0 0 18px;
+    background: url(/img/products/arrow.svg) center no-repeat;
+    max-height: 46.5px;
+    transition: all 0.2s;
+}
+.card-product__arrow:hover {
+    flex: 0 0 28px;
+    /* transform: scale(2); */
+    background: url(/img/products/arrow-hover.svg) center no-repeat;
+}
+/* -------whishlist------- */
+.whishlist {
+}
+.whishlist__container {
+    max-width: 933px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.whishlist__title {
+    margin: 0 0 50px 0;
+}
+.section-title {
+}
+.section-title__main {
+    color: #3c4242;
+    font-family: "Core Sans C";
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.19;
+    letter-spacing: 0.56px;
+}
+.whishlist__body {
+}
+.whishlist__card {
+}
+.card-whishlist {
+    display: flex;
+    gap: 36px;
+    align-items: center;
+}
+.card-whishlist__close {
+    flex: 0 0 22px;
+    height: 22px;
+    /* max-height: 110px; */
+    background: url(/img/whishlist/close.svg) center no-repeat;
+}
+.card-whishlist__image {
+    flex: 0 0 110px;
+    max-height: 110px;
+}
+.card-whishlist__image img {
+    width: 100%;
+    height: 100%;
+}
+.card-whishlist__info {
+}
+.info-whishcard {
+    column-gap: 25px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+}
+.card-whishlist__article {
+    color: #3c4242;
+    font-family: "Causten";
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.44px;
+    line-height: 1.18;
+    /* max-width: 270px; */
+
+    /* flex-grow: 0;
+    flex-shrink: 0; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    row-gap: 12px;
+}
+.card-whishlist__article span {
+    color: #807d7e;
+    font-weight: 500;
+}
+.info-whishcard__title {
+}
+.info-whishcard__link-title {
+}
+.info-whishcard__color {
+}
+.info-whishcard__quantity {
+}
+.card-whishlist__price {
+    margin: 0 25px 0 0;
+}
+.card-whishlist__add {
+    flex: 0 0 143px;
 }
