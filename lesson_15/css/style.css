@@ -222,7 +222,7 @@
 }
 .title {
     color: #3c4242;
-    font-family: "Core Sans C";
+    font-family: "Core Sans C", sans-serif;
     font-size: 34px;
     font-weight: 600;
     letter-spacing: 0.68px;
@@ -246,7 +246,7 @@
     row-gap: 50px;
     justify-content: center;
     flex-wrap: wrap;
-    font-family: "Causten";
+    font-family: "Causten", sans-serif;
     margin: 0 -25px 0 -25px;
 }
 .products__item {
@@ -306,7 +306,7 @@
 }
 .card-product__text {
     color: #7f7f7f;
-    font-family: "Causten";
+    font-family: "Causten", sans-serif;
     font-size: 13px;
     font-weight: 500;
     line-height: 1.5;
@@ -338,7 +338,7 @@
 }
 .section-title__main {
     color: #3c4242;
-    font-family: "Core Sans C";
+    font-family: "Core Sans C", sans-serif;
     font-size: 28px;
     font-weight: 600;
     line-height: 1.19;
@@ -379,7 +379,7 @@
 }
 .card-whishlist__article {
     color: #3c4242;
-    font-family: "Causten";
+    font-family: "Causten", sans-serif;
     font-size: 22px;
     font-weight: 700;
     letter-spacing: 0.44px;
