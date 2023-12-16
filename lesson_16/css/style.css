@@ -1,0 +1,140 @@
+/* Підключення шрифтів */
+@import url("fonts.css");
+
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Основні стилі */
+.wrapper {
+    min-height: 100%;
+    overflow: clip;
+
+    display: flex;
+    flex-direction: column;
+}
+.wrapper > main {
+    flex-grow: 1;
+}
+/* -------header------ */
+.header {
+    font-family: "Causten", sans-serif;
+    color: #807d7e;
+    padding: 31px 0;
+}
+.header--margin {
+}
+.header__container {
+    max-width: 1267px;
+    padding: 0 15px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.header__logo {
+    flex: 0 0 91px;
+    /* flex-grow: 1; */
+}
+.header__logo img {
+    width: 91px;
+    height: 46px;
+}
+.header__menu {
+}
+.menu-header {
+    /* flex-grow: 1; */
+    display: flex;
+    justify-content: space-between;
+    gap: 75px;
+    align-items: center;
+}
+.menu-header__items {
+    display: flex;
+    gap: 40px;
+}
+.menu-header__item {
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 500;
+}
+.menu-header__link {
+}
+.menu-header__form {
+    position: relative;
+    flex: 0 0 267px;
+}
+.menu-header__search {
+    border-radius: 8px !important;
+    background: #f6f6f6;
+    width: 267px;
+    height: 44px;
+    padding: 0 20px 0 52px;
+    text-transform: capitalize;
+    outline: none;
+}
+.menu-header__svg-search {
+    width: 20px;
+    height: 20px;
+    background: url(../img/header/search.svg) center no-repeat;
+    position: absolute;
+    top: 12px;
+    left: 20px;
+}
+.menu-header__search::-webkit-search-cancel-button {
+    opacity: 0;
+    position: relative;
+    z-index: 10;
+}
+.menu-header__search::-webkit-search-cancel-button:hover {
+    cursor: pointer;
+}
+.menu-header__svg-close {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.menu-header__svg-close::before,
+.menu-header__svg-close::after {
+    content: "";
+    width: 12px;
+    height: 2px;
+    background-color: #b6b6b6;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.menu-header__svg-close::before {
+    transform: translate(6px, 9px) rotate(45deg);
+}
+.menu-header__svg-close::after {
+    transform: translate(6px, 9px) rotate(-45deg);
+}
+.menu-header__search:focus ~ .menu-header__svg-close {
+    opacity: 1;
+}
+.menu-header__search:focus {
+    outline: 1px solid #8a33fd;
+}
+.menu-header__acc {
+}
+.acc-header {
+    flex: 0 0 156px;
+    display: flex;
+    column-gap: 12px;
+}
+.acc-header__btn {
+    flex: 0 0 44px;
+    height: 44px;
+    background-color: #f6f6f6;
+}
+.acc-header__btn-liked {
+}
+.acc-header__btn-page {
+}
+.acc-header__btn-cart {
+}
