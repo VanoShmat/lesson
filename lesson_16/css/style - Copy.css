@@ -24,7 +24,6 @@
     padding: 0 0 50px 0;
 }
 .page__checkout {
-    margin: 0 0 50px 0;
 }
 /* -------header------ */
 .header {
@@ -606,7 +605,6 @@ label.check-confirm__label:hover {
     left: 0;
 }
 .form-payment__shipping--last {
-    margin: 0 0 50px 0;
 }
 .form-section {
 }
@@ -678,41 +676,13 @@ label.check-confirm__label:hover {
 }
 .shipping-radio__option.shipping-radio__option--another-margin {
     margin: 0 0 30px 0;
-    display: block;
-}
-.shipping-radio__option.shipping-radio__option--another-margin > .shipping-radio__label {
-    display: flex;
-    flex-direction: column;
-    position: relative;
 }
 .shipping-radio__input {
-    display: none;
-    /* width: 0;
-    height: 0; */
 }
 .shipping-radio__label {
-    padding-left: 37px;
 }
 .shipping-radio__label > *:not(:last-child) {
     margin: 0 0 8px 0;
-}
-.shipping-radio__label:hover {
-    cursor: pointer;
-}
-.shipping-radio__label::before {
-    content: "";
-    width: 18px;
-    height: 18px;
-    flex: 0 0 18px;
-    background: url(../img/form-payment/radio-btn.svg) center no-repeat;
-
-    position: absolute;
-    left: 0;
-    top: calc(50% - 9px);
-    transition: all 0.2s;
-}
-.shipping-radio__input:checked + .shipping-radio__label::before {
-    background: url(../img/form-payment/radio-btn-checked.svg) center no-repeat;
 }
 .shipping-radio__title-label {
     display: block;
@@ -727,11 +697,11 @@ label.check-confirm__label:hover {
     font-size: 20px;
     font-weight: 700;
 }
-.body-payment-section--shipping > *:not(:last-child) {
+.body-payment-section__date {
     margin: 0 0 50px 0;
     position: relative;
 }
-.body-payment-section--shipping > *:not(:last-child)::after {
+.body-payment-section__date:not(:last-child)::after {
     content: "";
     width: 100%;
     height: 1px;
@@ -739,8 +709,6 @@ label.check-confirm__label:hover {
     position: absolute;
     bottom: -25px;
     left: 0;
-}
-.body-payment-section__date {
 }
 .body-payment-section__title {
 }
@@ -768,33 +736,25 @@ label.check-confirm__label:hover {
 }
 .shipping-radio__text-label {
 }
+.shipping-radio__card-info {
+    padding: 0 23px 0 37px;
+    /* height: 0;
+    overflow: hidden;
+    display: none; */
+}
+.shipping-radio__option #credit-card[value="card"]:checked + {
+}
 .shipping-radio__images {
-    padding-left: 37px;
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
-
-    height: 0;
-    visibility: hidden;
-}
-#credit-card[value="card"]:checked ~ .shipping-radio__images {
-    height: auto;
-    visibility: visible;
-    margin: 30px 0 30px 0;
+    margin: 0 0 30px 0;
 }
 .shipping-radio__img {
     flex: 0 0 80px;
     max-height: 46px;
 }
 .shipping-radio__info {
-    padding-left: 37px;
-
-    height: 0;
-    visibility: hidden;
-}
-#credit-card[value="card"]:checked ~ .shipping-radio__info {
-    height: auto;
-    visibility: visible;
 }
 .info-shipping {
     display: flex;
@@ -807,7 +767,7 @@ label.check-confirm__label:hover {
 }
 .info-shipping__input {
     padding: 0 20px;
-    height: 52px;
+    height: 51px;
     width: 100%;
     border-radius: 8px !important;
     outline: 1px solid #3c4242;
@@ -816,42 +776,9 @@ label.check-confirm__label:hover {
 .info-shipping__input:focus {
     outline: 1px solid #8a33fd;
 }
-.info-shipping__field--eye {
-    position: relative;
-}
-.info-shipping__input--eye {
-    content: "";
-    position: absolute;
-    top: 15px;
-    right: 20px;
-    width: 22px;
-    height: 22px;
-    background: url(../img/form-payment/eye-close.svg) center no-repeat;
-    cursor: pointer;
-    transition: all 0.2s;
-}
-.info-shipping__input--eye:active {
-    background: url(../img/form-payment/eye-open.svg) center no-repeat;
-}
 .form-payment__button {
 }
 .check-btn {
 }
 .check-btn__delivery-btn {
-}
-/* --------footer------- */
-.footer {
-    padding: 31px 0;
-    border-top: 1px solid #bebcbd;
-}
-.footer__container {
-    max-width: 1267px;
-    padding: 0 15px;
-    margin: 0 auto;
-}
-.footer__container p {
-    text-align: center;
-    font-family: "Causten", sans-serif;
-    font-weight: 600;
-    font-size: 22px;
 }
