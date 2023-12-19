@@ -229,7 +229,7 @@
     height: 12px;
     background-color: #40ddb6;
 }
-.head-titles_title {
+.head-titles__title {
     font-family: "Poppins", sans-serif;
     font-size: 40px;
     font-weight: 700;
@@ -819,7 +819,7 @@ label.check-confirm__label:hover {
 .info-shipping__field--eye {
     position: relative;
 }
-.info-shipping__input--eye {
+.info-shipping__span {
     content: "";
     position: absolute;
     top: 15px;
@@ -830,7 +830,7 @@ label.check-confirm__label:hover {
     cursor: pointer;
     transition: all 0.2s;
 }
-.info-shipping__input--eye:active {
+.info-shipping__span:active {
     background: url(../img/form-payment/eye-open.svg) center no-repeat;
 }
 .form-payment__button {
