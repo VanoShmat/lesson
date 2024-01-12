@@ -1,39 +1,11 @@
 .wrapper {
     background-color: #fff9f4;
 }
-.header {
-}
-.header__container {
-}
-.header__logo {
-}
-.menu {
-}
-.menu__body {
-}
-.menu__list {
-}
-.menu__item {
-}
-.menu__link {
-}
 .menu__link--active {
     color: #000;
 }
-.menu__item--sub {
-}
-.sub-menu {
-}
 .sub-menu__body {
     background-color: #aac3ca;
-}
-.sub-menu__item {
-}
-.sub-menu__link {
-}
-.header__actions {
-}
-.actions-buttons {
 }
 .actions-buttons__login {
     padding: 13px 28px;
@@ -42,8 +14,6 @@
     color: #fff;
     font-weight: 700;
     transition: background-color 0.3s;
-}
-.burger {
 }
 @media (any-hover: hover) {
     .menu__link:hover {
@@ -72,8 +42,7 @@
     }
 }
 /* -------design------- */
-.page__design {
-}
+
 .design {
     padding: 200px 0;
 }
@@ -110,8 +79,6 @@
     display: flex;
     column-gap: 47px;
     align-items: center;
-}
-.buttons-design {
 }
 .buttons-design__shop {
     color: #fff;

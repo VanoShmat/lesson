@@ -129,6 +129,7 @@
 }
 .actions-buttons__item img {
     max-width: 100%;
+    transition: all 0.3s;
 }
 .actions-buttons__item span {
     position: absolute;
@@ -163,6 +164,9 @@
     }
     .sub-menu__link:hover {
         text-decoration: underline;
+    }
+    .actions-buttons__item:hover.actions-buttons__item img {
+        transform: scale(1.1);
     }
 }
 @media (max-width: 1024.98px) {
