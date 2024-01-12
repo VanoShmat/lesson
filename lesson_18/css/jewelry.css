@@ -87,12 +87,23 @@
     border-radius: 5px;
     background-color: #0e333d;
     padding: 17px 38px;
+    transition: background-color 0.3s;
 }
 .buttons-design__video {
     color: #0e333d;
     font-family: "DM Serif Text", serif;
     font-size: 28px;
-    text-decoration-line: underline;
+    position: relative;
+}
+.buttons-design__video::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #0e333d;
+    transition: width 0.3s;
 }
 .design__media {
     flex: 0 1 523px;
@@ -113,6 +124,14 @@
     aspect-ratio: 245 / 467;
     width: 100%;
     /* height: 100%; */
+}
+@media (any-hover: hover) {
+    .buttons-design__shop:hover {
+        background-color: #1c5768;
+    }
+    .buttons-design__video:hover::after {
+        width: 0;
+    }
 }
 @media (max-width: 1024.98px) {
     .design {
